@@ -1,0 +1,690 @@
+.mainForm {
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    background: #999;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 400px
+}
+.login {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 32px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #494949;
+    border: 1px solid #dbdbdd;
+    background: #F0F0F0;
+}
+.login:hover {
+    background: #E9E9E9;
+}
+.login:active {
+    background: #E3E3E3;
+}
+.registration {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 32px;
+    color: #494949;
+    border: 1px solid #dbdbdd;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #F0F0F0;
+}
+.registration:hover {
+    background: #E9E9E9;
+}
+.registration:active {
+    background: #E3E3E3;
+}
+.loginInput {
+    font-size: 18px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.passwordInput {
+    font-size: 18px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.loginFormButton {
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    line-height: 30px;
+    color: #494949;
+    border: 1px solid #dbdbdd;
+    background: #F0F0F0;
+}
+.loginFormButton:hover {
+    background: #E9E9E9;
+}
+.loginFormButton:active {
+    background: #E3E3E3;
+}
+.regFormLoginLabel {
+    font-size: 16px;
+}
+.regFormLogin {
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.regFormPasswordLabel {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.regFormPassword {
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.regFormNameLabel {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.regFormName {
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.regFormGender {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.regFormDateLabel {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.regFormDate {
+    font-size: 16px;
+    color: #a9a9a9;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.regFormFirstLabel {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.regFormFirst {
+    font-size: 16px;
+    color: #a9a9a9;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.regFormLearningLabel {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.regFormLearning {
+    font-size: 16px;
+    color: #a9a9a9;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.regFormLevelLabel {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.regFormLevel {
+    font-size: 16px;
+    color: #a9a9a9;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.regFormButton {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    line-height: 30px;
+    color: #6E6E6E;
+    border: 1px solid #dbdbdd;
+    background: #F0F0F0;
+}
+.regFormButton:hover {
+    background: #E9E9E9;
+}
+.regFormButton:active {
+    background: #E3E3E3;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #999;
+    width: 200px;
+}
+
+.content {
+    padding-left: 250px;
+    padding-top: 30px;
+}
+
+.barelem:hover {
+    background: #858585;
+}
+.barlink {
+    display: block;
+    padding: 15px;
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+.selected {
+    background: gray;
+}
+.selected:hover {
+    background: #616161;
+}
+.profileImage {
+    size: 300px 300px;
+    display: inline-block;
+}
+.info {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.profileName {
+    font-size: 34px;
+    font-weight: bold;
+}
+.profileDescription {
+    width: 600px;
+    word-break: break-word;
+    word-wrap: break-word;
+
+}
+.underProfileName {
+    font-size: 14px;
+    text-underline: none;
+}
+.profileNotName {
+    font-size: 18px;
+}
+
+a.startChat {
+    display: block;
+    width: 300px;
+    height: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    color: #494949;
+    border: 1px solid #dbdbdd;
+    background: #F0F0F0;
+}
+a.startChat:hover {
+    background: #E9E9E9;
+}
+a.startChat:active {
+    background: #E3E3E3;
+}
+.chatBody {
+    padding: 10px;
+    margin: auto;
+    width: 650px;
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #dbdbdd;
+    background: #ffffff;
+    margin-bottom: 10px
+
+}
+
+.message {
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.message2 {
+    max-width: 350px;
+    background: #00a6e8;
+    color: white;
+    left: 10px;
+    width: 80%;
+    float: left;
+    padding: 5px;
+}
+
+.message1 {
+    max-width: 350px;
+    background: #dedede;
+    color: black;
+    right: 10px;
+    width: 80%;
+    float: right;
+    padding: 5px;
+}
+
+.chatUserName {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.chatUserName:hover {
+    text-decoration: underline;
+}
+.chatHeader {
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.chatInput {
+    width: 670px;
+    margin: auto;
+}
+.chatTextInput {
+    width: 550px;
+    height: 40px;
+    margin-right: 10px;
+}
+.chatSubmitInput {
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    font-size: 16px;
+    background: #D8D8D8;
+}
+.chatSubmitInput:hover {
+    background: #BDBDBD;
+}
+.chatSubmitInput:active {
+    background: #A4A4A4;
+}
+.messageTime {
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.message1 .messageTime{
+    color: #484848;
+}
+.message2 .messageTime{
+    color: rgb(162, 233, 255);
+}
+
+.communityProfile {
+    display: inline-block;
+    padding: 10px;
+    width: 560px;
+    height: 210px;
+    overflow-y: auto;
+    border: 1px solid #dbdbdd;
+    background: #ffffff;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.communityProfileImage {
+    display: inline-block;
+}
+.communityProfileInfo {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+.communityProfileName {
+    text-decoration: none;
+    color:black;
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.communityProfileNotName {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.singleMessage {
+    padding: 10px;
+    width: 1000px;
+    height: 110px;
+    overflow-y: auto;
+    border: 1px solid #dbdbdd;
+    background: #ffffff;
+    margin-bottom: 10px;
+}
+.singleUserImage {
+    display: inline-block;
+    margin-right: 5px;
+}
+.nextToSingleUserImage {
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+}
+.singleUserName {
+    text-decoration: none;
+    color:black;
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.singleMessageText {
+    text-decoration: none;
+    color: #3f3f3f;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.singleMessageTime {
+    font-size: 12px;
+    font-weight: bold;
+    color: #575757;
+}
+.singleMessageLink {
+    display: block;
+    color: white;
+}
+.previous {
+    display: inline-block;
+    position: absolute;
+    left: 637px;
+    text-decoration: none;
+    color: #6E6E6E;
+    border: 1px solid #dbdbdd;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #F0F0F0;
+}
+.previous:hover {
+    background: #E9E9E9;
+}
+.previous:active {
+    background: #E3E3E3;
+}
+.next {
+    display: inline-block;
+    position: absolute;
+    left: 855px;
+    text-decoration: none;
+    color: #6E6E6E;
+    border: 1px solid #dbdbdd;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #F0F0F0;
+}
+.next:hover {
+    background: #E9E9E9;
+}
+.next:active {
+    background: #E3E3E3;
+}
+.searchingForm {
+    display: none;
+    position: fixed;
+    z-index:99999999;
+}
+
+.searching:hover .searchingForm {
+    display: block;
+    z-index:99999999;
+}
+.searching {
+    width: 300px;
+    margin-bottom: 10px;
+}
+.searchingLink {
+    display: inline-block;
+    text-decoration: none;
+    color: #4b4b4b;
+    border: 1px solid #dbdbdd;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #F0F0F0;
+}
+.searchingLink:hover {
+    background: #E9E9E9;
+}
+.searchingLink:active {
+    background: #E3E3E3;
+}
+.searchingForm {
+    color: #4b4b4b;
+    border: 1px solid #dbdbdd;
+    width: 290px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: #f8f8f8;
+}
+.searchingGenderRadio {
+    color:black;
+}
+.searchingAgesFromLabel {
+    color: black;
+}
+.searchingAgesToLabel {
+    color: black;
+}
+.searchingButton {
+    color: #4b4b4b;
+    border: 1px solid #dbdbdd;
+    width: 280px;
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+    background: white;
+}
+.searchingButton:hover {
+    background: #E9E9E9;
+}
+.searchingButton:active {
+    background: #E3E3E3;
+}
+.searchingName {
+    margin-bottom: 5px;
+}
+.searchingGender {
+    margin-bottom: 5px;
+}
+.searchingAges {
+    margin-bottom: 5px;
+}
+.searchingFirst {
+    width: 205px;
+    margin-bottom: 5px;
+}
+.searchingLearning {
+    width: 205px;
+    margin-bottom: 5px;
+}
+.searchingLevel {
+    width: 205px;
+    margin-bottom: 10px;
+}
+a.communityStartChat {
+    display: block;
+    width: 300px;
+    height: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    color: #494949;
+    border: 1px solid #dbdbdd;
+    background: #F0F0F0;
+    margin-top: 10px;
+}
+a.communityStartChat:hover {
+    background: #E9E9E9;
+}
+a.communityStartChat:active {
+    background: #E3E3E3;
+}
+.editFormLoginLabel {
+    font-size: 16px;
+}
+.editFormLogin {
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.editFormPasswordLabel {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.editFormPassword {
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.editFormNameLabel {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.editFormName {
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.editFormGender {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.editFormDateLabel {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.editFormDate {
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.editFormFirstLabel {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.editFormFirst {
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.editFormLearningLabel {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.editFormLearning {
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.editFormLevelLabel {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.editFormLevel {
+    font-size: 16px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.editFormButton {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    line-height: 30px;
+    border: 1px solid #dbdbdd;
+    background: #F0F0F0;
+}
+.editFormButton:hover {
+    background: #E9E9E9;
+}
+.editFormButton:active {
+    background: #E3E3E3;
+}
+
+.uploadButton {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    line-height: 30px;
+}
+.uploadButton:hover {
+    background: #E9E9E9;
+}
+.uploadButton:active {
+    background: #E3E3E3;
+}
+.uploadFile {
+    font-size: 18px;
+}
+.editFormDescription {
+    width: 300px;
+    resize: vertical;
+}
+a.deleteUser {
+    display: block;
+    width: 300px;
+    height: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    color: #494949;
+    border: 1px solid #dbdbdd;
+    background: #F0F0F0;
+}
+a.deleteUser:hover {
+    background: #E9E9E9;
+}
+a.deleteUser:active {
+    background: #E3E3E3;
+}
